@@ -30,6 +30,15 @@ const handleUserInput = function (key) {
   } else if (key === "d") {
     // console.log("Move: right");
     connection.write("Move: right");
+  } else if (key === "t") {
+    // console.log("Move: right");
+    connection.write("Say: wats gud");
+  } else if (key === "y") {
+    // console.log("Move: right");
+    connection.write("Say: ill bash ur hed in");
+  } else if (key === "u") {
+    // console.log("Move: right");
+    connection.write("Say: i swear on me mum");
   }
 };
 
